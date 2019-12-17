@@ -15,3 +15,5 @@ Following Maximilian Schwarzmüller's course on Udemy, [React - The Complete Gui
 5. The Aux.js wrapper will be written as Auxillary.js, to make things easier on Windows.
 
 6. I prefer to return early, such as in the `switch` statement in BurgerIngredient.js
+
+7. I prefer functional components, unless there's a good reason to use classes, such as state management. Ex: BurgerIngredient will remain a functional component.
