@@ -13,3 +13,5 @@ Following Maximilian Schwarzmüller's course on Udemy, [React - The Complete Gui
 4. Usually, though not always, I prefer to explicitly `return` values from functions, even when a single line lambda function would suffice. I will sometimes break this rule for in-line JSX or other areas where a single line function looks and feels better.
 
 5. The Aux.js wrapper will be written as Auxillary.js, to make things easier on Windows.
+
+6. I prefer to return early, such as in the `switch` statement in BurgerIngredient.js
