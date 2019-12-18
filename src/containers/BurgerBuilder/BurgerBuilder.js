@@ -2,6 +2,7 @@ import React from 'react';
 import Aux from '../../hoc/Auxillary';
 
 import Burger from '../../components/Burger/Burger';
+import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 
 // This will be converted to a functional component with hooks
 class BurgerBuilder extends React.Component {
@@ -22,7 +23,7 @@ class BurgerBuilder extends React.Component {
         return (
             <Aux>
                 <Burger ingredients={this.state.ingredients} />
-                <div>Build Controls</div>
+                <BuildControls />
             </Aux>
         );
     };
