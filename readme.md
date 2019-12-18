@@ -19,3 +19,8 @@ Following Maximilian Schwarzmüller's course on Udemy, [React - The Complete Gui
 7. I prefer functional components, unless there's a good reason to use classes, such as state management. Ex: BurgerIngredient will remain a functional component.
 
 8. I prefer setting the state of a class-based component in an explicitly defined constructor.
+
+
+## Things I would like to do in the future (todo)
+
+1. The transformation of ingredients to the array of JSX values in Burger.js seems unintuitive. I would like to either get a better understanding of the map/reduce operations here, and if it's still unintuitive, refactor it in to something a little more easy to grasp at first glance.
