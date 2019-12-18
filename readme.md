@@ -17,3 +17,5 @@ Following Maximilian Schwarzmüller's course on Udemy, [React - The Complete Gui
 6. I prefer to return early, such as in the `switch` statement in BurgerIngredient.js
 
 7. I prefer functional components, unless there's a good reason to use classes, such as state management. Ex: BurgerIngredient will remain a functional component.
+
+8. I prefer setting the state of a class-based component in an explicitly defined constructor.
