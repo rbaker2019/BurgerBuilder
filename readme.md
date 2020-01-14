@@ -20,6 +20,8 @@ Following Maximilian Schwarzmüller's course on Udemy, [React - The Complete Gui
 
 8. I prefer setting the state of a class-based component in an explicitly defined constructor.
 
+9. In the BurgerBuilder state, I am using `checkout` instead of `purchasing`
+
 
 ## Things I would like to do in the future (todo)
 
