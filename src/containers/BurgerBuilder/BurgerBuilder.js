@@ -36,6 +36,10 @@ class BurgerBuilder extends React.Component {
         this.setState({ checkout: true });
     };
 
+    purchaseCancelHandler = () => {
+        this.setState({ checkout: false });
+    };
+
     updatePurchaseState = (updatedIngredients) => {
         const sum = Object.keys(updatedIngredients)
             .map(igKey => { return updatedIngredients[igKey]; })
@@ -88,7 +92,7 @@ class BurgerBuilder extends React.Component {
 
         return (
             <Aux>
-                <Modal show={this.state.checkout}>
+                <Modal show={this.state.checkout} modalClosed={this.purchaseCancelHandler}>
                     <OrderSummary ingredients={this.state.ingredients} />
                 </Modal>
                 <Burger ingredients={this.state.ingredients} />
