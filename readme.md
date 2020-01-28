@@ -22,6 +22,8 @@ Following Maximilian Schwarzmüller's course on Udemy, [React - The Complete Gui
 
 9. In the BurgerBuilder state, I am using `checkout` instead of `purchasing`
 
+10. Made my own ugly logo and adjusted the CSS accordingly. "Graphic design is my passion"
+
 
 ## Things I would like to do in the future (todo)
 
