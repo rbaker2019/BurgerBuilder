@@ -8,7 +8,9 @@ import Logo from '../../Logo/Logo';
 const toolbar = (props) => {
     return (<header className={classes.Toolbar}>
         <div>MENU</div>
-        <Logo />
+        <div className={classes.Logo}>
+            <Logo />
+        </div>
         <nav>
             <NavigationItems />
         </nav>
